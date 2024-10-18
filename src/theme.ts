@@ -37,7 +37,7 @@ export const theme = createTheme({
     },
     background: {
       default: '#FFFFFF',
-      paper: '#BDBDBD',
+      paper: '#dddddd',
     },
     text: {
       primary: '#000000DE',
@@ -59,9 +59,8 @@ export const theme = createTheme({
   typography: {
     h1: {
       fontSize: 16,
-      lineHeight: 2.8,
-      letterSpacing: 0.15,
-      fontWeight: 400,
+      lineHeight: 1.8,
+      fontWeight: 500,
     },
     h2: {
       fontSize: 14,
@@ -69,8 +68,20 @@ export const theme = createTheme({
       letterSpacing: '0em',
       fontWeight: 400,
     },
+    h3: {
+      fontSize: 12,
+      lineHeight: 1.4,
+      letterSpacing: '0em',
+      fontWeight: 400,
+    },
     subtitle1: {
       fontSize: 13,
+      lineHeight: 1.4,
+      letterSpacing: '0em',
+      fontWeight: 400,
+    },
+    subtitle2: {
+      fontSize: 10,
       lineHeight: 1.4,
       letterSpacing: '0em',
       fontWeight: 400,
